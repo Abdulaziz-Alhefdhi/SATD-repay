@@ -6,20 +6,20 @@ https://drive.google.com/drive/folders/1KCG0V2FOnUcdzR-Huqb_9wJwsI3pQqzR?usp=sha
 
 In the link, you will find the following files:
 1. **stud_prep.zip**: Contains the following:
-  1.1. The original data curated by [2] and further developed by [3].
-  1.2. The code used to process it and create the main dataset of the study (SATD-R).
-  1.3. The resulted main dataset of our study, SATD-R (satd_repayment.pkl).
+   - The original data curated by [2] and further developed by [3].
+   - The code used to process it and create the main dataset of the study (SATD-R).
+   - The resulted main dataset of our study, SATD-R (satd_repayment.pkl).
 2. **Taxonomy - Purpose and Helpfulness**: Contains the following:
-  2.1. Our empirical study to answer RQ1 and RQ2 in the paper.
-  2.2. The resulted taxonomy that answers RQ1 & RQ2.
-  2.3. Agreement calculation
+   - Our empirical study to answer RQ1 and RQ2 in the paper.
+   - The resulted taxonomy that answers RQ1 & RQ2.
+   - Agreement calculation
 3. **nngen.zip**: Contains our employment of NNGen [4] in our transfer learning approach. It contains the following:
-  3.1. BigFix [5]: the dataset used for our transfer learning approach (bigfix folder).
-  3.2. Our code to use NNGen to annotote BigFix.
+   - BigFix [5]: the dataset used for our transfer learning approach (bigfix folder).
+   - Our code to use NNGen to annotote BigFix.
 4. **dlrepay.zip**: Contains the following:
-  4.1. Annotated BigFix (A-BigFix).
-  4.2. The code and results of variuos experiments using our proposed model (DLRepay), some of which were reported in the Evaluation section of the paper (RQ3 & RQ4).
-  4.3. The code to prepare the data for RQ5
+   - Annotated BigFix (A-BigFix).
+   - The code and results of variuos experiments using our proposed model (DLRepay), some of which were reported in the Evaluation section of the paper (RQ3 & RQ4).
+   - The code to prepare the data for RQ5
 5. **unixcoder.zip**: Contains the code, models, and results used for the camparative study (RQ5) using the baseline (UniXcoder [6]).
 <hr>
 
