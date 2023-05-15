@@ -7,27 +7,33 @@ https://drive.google.com/drive/folders/1KCG0V2FOnUcdzR-Huqb_9wJwsI3pQqzR?usp=sha
 <br><br>
 This repo contains the following directories:
 1. **codebase**: consists of the following main components:
-   - Source code for creating the main dataset for this study (SATD-R).
-   - Source code for creating the transfer learning dataset (A-BigFix). NNGen [2] was used to annotate A-BigFix.
-   - Source code for DLRepay experiments.
-   - Source code for data preparation for baseline (UniXcoder [3]) experiments
-2. text
-3. **stud_prep.zip**: Contains the following:
+   - *SATD-R*: Source code for creating the main dataset for this study (SATD-R).
+   - *A-BigFix*: Source code for creating the transfer learning dataset (A-BigFix). NNGen [2] was used to annotate A-BigFix.
+   - *DLRepay*: Source code for conducting DLRepay experiments for SATD repayment.
+   - *prepare_unixcoder_data*: Source code for data preparation for baseline (UniXcoder [3]) experiments.
+   - *unixcoder_for_satd_repay*: Source code for conducting baseline experiments for SATD repayment.
+2. **data**
+3. **emp_study**
+4. **output**
+
+
+
+6. **stud_prep.zip**: Contains the following:
    - The original data curated by [4] and further developed by [5].
    - The code used to process it and create the main dataset of the study (SATD-R).
    - The resulted main dataset of our study, SATD-R (satd_repayment.pkl).
-4. **Taxonomy - Purpose and Helpfulness**: Contains the following:
+7. **Taxonomy - Purpose and Helpfulness**: Contains the following:
    - Our empirical study to answer RQ1 and RQ2 in the paper.
    - The resulted taxonomy that answers RQ1 & RQ2.
    - Agreement calculation
-5. **nngen.zip**: Contains our employment of NNGen [2] in our transfer learning approach. It contains the following:
+8. **nngen.zip**: Contains our employment of NNGen [2] in our transfer learning approach. It contains the following:
    - BigFix [6]: the dataset used for our transfer learning approach (bigfix folder).
    - Our code to use NNGen to annotote BigFix.
-6. **dlrepay.zip**: Contains the following:
+9. **dlrepay.zip**: Contains the following:
    - Annotated BigFix (A-BigFix).
    - The code and results of variuos experiments using our proposed model (DLRepay), some of which were reported in the Evaluation section of the paper (RQ3 & RQ4).
    - The code to prepare the data for RQ5
-7. **unixcoder.zip**: Contains the code, models, and results used for the camparative study (RQ5) using the baseline (UniXcoder [6]).
+10. **unixcoder.zip**: Contains the code, models, and results used for the camparative study (RQ5) using the baseline (UniXcoder [6]).
 <hr>
 
 [1] A. Alhefdhi, H. K. Dam, A. Ghose, Towards the Repayment of Self-Admitted Technical Debt, Available at SSRN 4441278, 2023.
