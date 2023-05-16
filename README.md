@@ -7,18 +7,20 @@ https://drive.google.com/drive/folders/1KCG0V2FOnUcdzR-Huqb_9wJwsI3pQqzR?usp=sha
 <br><br>
 This repo contains the following directories:
 1. **codebase**: consists of the following main components:
-   - *SATD-R*: Source code for creating the main dataset for this study (SATD-R).
+   - *SATD-R*: Source code for creating the main dataset of this study (SATD-R).
    - *A-BigFix*: Source code for creating the transfer learning dataset (A-BigFix). NNGen [2] was used to annotate A-BigFix.
    - *DLRepay*: Source code for conducting DLRepay experiments for SATD repayment.
    - *prepare_unixcoder_data*: Source code for data preparation for baseline (UniXcoder [3]) experiments.
    - *unixcoder_for_satd_repay*: Source code for conducting baseline experiments for SATD repayment.
 2. **data**: consists of the directories of SATD-R, A-BigFix, and along with their metadata, supporting data, and original data. Due to the excessive size, the actual folder and its content can be found [here](https://drive.google.com/drive/folders/1KCG0V2FOnUcdzR-Huqb_9wJwsI3pQqzR?usp=share_link) under "data.zip".
-3. **emp_study**:
+   - The original data used for creating SATD-R was first curated by Maldonado et al. [4] and further developed by Zampetti et al [5].
+   - We used BigFix [6] for transfer learning.
+4. **emp_study**:
    - contains our analysis towards answering RQ1 and RQ2 regarding the purpose and helpfulness of the SATD comment in repaying the technical debt.
    - Can also be found [here](https://drive.google.com/drive/folders/1KCG0V2FOnUcdzR-Huqb_9wJwsI3pQqzR?usp=share_link) under the "Taxonomy - Purpose and Helpfulness" sheets.
    - The resulting taxonomy answering RQ1 & RQ2.
    - The agreement calculation of the taxonomy between two judges (J1 & J2).
-4. **output**
+5. **output**
 
 
 
