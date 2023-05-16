@@ -12,8 +12,12 @@ This repo contains the following directories:
    - *DLRepay*: Source code for conducting DLRepay experiments for SATD repayment.
    - *prepare_unixcoder_data*: Source code for data preparation for baseline (UniXcoder [3]) experiments.
    - *unixcoder_for_satd_repay*: Source code for conducting baseline experiments for SATD repayment.
-2. **data**
-3. **emp_study**
+2. **data**: consists of the directories of SATD-R, A-BigFix, and along with their metadata, supporting data, and original data. Due to the excessive size, the actual folder and its content can be found [here](https://drive.google.com/drive/folders/1KCG0V2FOnUcdzR-Huqb_9wJwsI3pQqzR?usp=share_link) under "data.zip".
+3. **emp_study**:
+   - contains our analysis towards answering RQ1 and RQ2 regarding the purpose and helpfulness of the SATD comment in repaying the technical debt.
+   - Can also be found [here](https://drive.google.com/drive/folders/1KCG0V2FOnUcdzR-Huqb_9wJwsI3pQqzR?usp=share_link) under the "Taxonomy - Purpose and Helpfulness" sheets.
+   - The resulting taxonomy answering RQ1 & RQ2.
+   - The agreement calculation of the taxonomy between two judges (J1 & J2).
 4. **output**
 
 
