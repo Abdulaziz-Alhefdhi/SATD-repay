@@ -16,30 +16,12 @@ This repo contains the following directories:
    - The original data used for creating SATD-R was first curated by Maldonado et al. [4] and further developed by Zampetti et al [5].
    - We used BigFix [6] for transfer learning.
 4. **emp_study**:
-   - contains our analysis towards answering RQ1 and RQ2 regarding the purpose and helpfulness of the SATD comment in repaying the technical debt.
+   - contains our analysis towards answering RQ1 and RQ2 regarding the *purpose* and *helpfulness* of the SATD comment in repaying the technical debt.
    - Can also be found [here](https://drive.google.com/drive/folders/1KCG0V2FOnUcdzR-Huqb_9wJwsI3pQqzR?usp=share_link) under the "Taxonomy - Purpose and Helpfulness" sheets.
    - The resulting taxonomy answering RQ1 & RQ2.
    - The agreement calculation of the taxonomy between two judges (J1 & J2).
-5. **output**: consists of the directories of the results of the evaluation measures and generated SATD repayments for DLRepay and UniXcoder. It also consists of the directories of the saved UniXcoder models. Due to the excessive size, the actual folder and its content can be found [here](https://drive.google.com/drive/folders/1KCG0V2FOnUcdzR-Huqb_9wJwsI3pQqzR?usp=share_link) under "output.zip".
+5. **output**: consists of the directories of the results of the evaluation measures and generated SATD repayments for DLRepay and UniXcoder within various experiments. It also consists of the directories of the saved UniXcoder models. Due to the excessive size, the actual folder and its content can be found [here](https://drive.google.com/drive/folders/1KCG0V2FOnUcdzR-Huqb_9wJwsI3pQqzR?usp=share_link) under "output.zip".
 
-
-
-6. **stud_prep.zip**: Contains the following:
-   - The original data curated by [4] and further developed by [5].
-   - The code used to process it and create the main dataset of the study (SATD-R).
-   - The resulted main dataset of our study, SATD-R (satd_repayment.pkl).
-7. **Taxonomy - Purpose and Helpfulness**: Contains the following:
-   - Our empirical study to answer RQ1 and RQ2 in the paper.
-   - The resulted taxonomy that answers RQ1 & RQ2.
-   - Agreement calculation
-8. **nngen.zip**: Contains our employment of NNGen [2] in our transfer learning approach. It contains the following:
-   - BigFix [6]: the dataset used for our transfer learning approach (bigfix folder).
-   - Our code to use NNGen to annotote BigFix.
-9. **dlrepay.zip**: Contains the following:
-   - Annotated BigFix (A-BigFix).
-   - The code and results of variuos experiments using our proposed model (DLRepay), some of which were reported in the Evaluation section of the paper (RQ3 & RQ4).
-   - The code to prepare the data for RQ5
-10. **unixcoder.zip**: Contains the code, models, and results used for the camparative study (RQ5) using the baseline (UniXcoder [6]).
 <hr>
 
 [1] A. Alhefdhi, H. K. Dam, A. Ghose, Towards the Repayment of Self-Admitted Technical Debt, Available at SSRN 4441278, 2023.
