@@ -24,6 +24,17 @@ This repo contains the following directories:
 
 <hr>
 
+If you use any of our material, please consider citing us:
+```
+@article{alhefdhi4441278towards,
+  title={Towards the Repayment of Self-Admitted Technical Debt},
+  author={Alhefdhi, Abdulaziz Hasan M and Dam, Hoa Khanh and Ghose, Aditya},
+  journal={Available at SSRN 4441278}
+}
+```
+
+<hr>
+
 [1] A. Alhefdhi, H. K. Dam, A. Ghose, Towards the Repayment of Self-Admitted Technical Debt, Available at SSRN 4441278, 2023.
 
 [2] Z. Liu, X. Xia, A. E. Hassan, D. Lo, Z. Xing, X. Wang, Neural-machine-translation-based commit message generation: how far are we?, in: Proceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering, 2018, pp. 373–384.
