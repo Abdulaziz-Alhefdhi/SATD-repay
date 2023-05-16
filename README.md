@@ -1,5 +1,5 @@
 # SATD-repay
-## Still working on updating the **readme**. Will finish soon!
+
 Taxonomy and SATD repayment model (DLRepay) from the paper: Towards the Repayment of Self-Admitted Technical Debt [1].
 <br><br>
 Link to the data and output of our study:
