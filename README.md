@@ -20,7 +20,7 @@ This repo contains the following directories:
    - Can also be found [here](https://drive.google.com/drive/folders/1KCG0V2FOnUcdzR-Huqb_9wJwsI3pQqzR?usp=share_link) under the "Taxonomy - Purpose and Helpfulness" sheets.
    - The resulting taxonomy answering RQ1 & RQ2.
    - The agreement calculation of the taxonomy between two judges (J1 & J2).
-5. **output**
+5. **output**: consists of the directories of the results of the evaluation measures and generated SATD repayments for DLRepay and UniXcoder. It also consists of the directories of the saved UniXcoder models. Due to the excessive size, the actual folder and its content can be found [here](https://drive.google.com/drive/folders/1KCG0V2FOnUcdzR-Huqb_9wJwsI3pQqzR?usp=share_link) under "output.zip".
 
 
 
